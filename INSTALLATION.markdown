@@ -12,15 +12,11 @@ Don't worry, at Carries Cars we have tried to make on-boarding a pleasant experi
        ```
  4. Configure the tests to run from your IDE:
      - **InteliJ**: 
-       1. Click the **Add Configurations** button in the top toolbar
-       2. Click the **+** icon or the **Add new run configuration**
-       3. Select **JUnit** from the list
-       4. Give the configuration a useful name (e.g. `Tests`)
-       5. Change the **Build and run** configuration to `Java 11`
-       6. Change the **Class** configuration to **All in package** (i.e. `com.carriesCars`)
-       8. Click the **OK** button to save the configuration
-       9. Hit the green ▶️ button next in the toolbar
-       10. Inspect the results in the bottom pane (you should see ✅ Test Results)
+       1. Open **src > test > kotlin** in the project view
+       2. Right-click the **test > kotlin** folder
+       3. Select **Run 'All Tests'** from the list
+       4. Inspect the results in the bottom pane (you should see ✅ Test Results)
+       5. Whenever you make changes, run the tests again using **Ctrl + R** (Mac) or **Alt + Shift + F10** (Windows)
      - **VS Code**: <not yet researched>
 
 Frequently Asked Questions
