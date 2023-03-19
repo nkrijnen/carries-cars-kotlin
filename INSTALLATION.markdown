@@ -12,9 +12,9 @@ Don't worry, at Carries Cars we have tried to make on-boarding a pleasant experi
        ```
  4. Configure the tests to run from your IDE:
      - **InteliJ**: 
-       1. Open **src > test > kotlin** in the project view
-       2. Right-click the **test > kotlin** folder
-       3. Select **Run 'All Tests'** from the list
+       1. Open the project view
+       2. Right-click the **carries-cars-kotlin** project folder
+       3. Select **Run 'Tests in ...'** from the list
        4. Inspect the results in the bottom pane (you should see ✅ Test Results)
        5. Whenever you make changes, run the tests again using **Ctrl + R** (Mac) or **Alt + Shift + F10** (Windows)
      - **VS Code**: <not yet researched>
